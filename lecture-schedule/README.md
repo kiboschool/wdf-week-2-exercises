@@ -10,3 +10,4 @@ In this exercise, you will create a lecture schedule (time-table) similar to the
     - Add a pair of opening and closing tags for the table element.
     - Type in a pair of tags for the `<thead>` element. Add table header data (Morning, Afternoon and Evening) appropriately into the `<thead>` element.
     - Add the opening and closing `<tbody>` tags, and insert the remainder of the table data between the <tbody> elements. Your aim is to generate exactly the table shown in the image above.
+3. You have been given a text file, `data.txt`, that contains the data required for the table.
