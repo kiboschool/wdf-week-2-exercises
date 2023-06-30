@@ -23,6 +23,8 @@ Try running the page and see that it embeds your video!
 
 Run the page again and see that it embeds your map!
 
+Note that you might need to edit the `<iframe>` code you copy from YouTube and/or Google Maps for your html to be a valid doc. You will get prompts on this when running the test for this exercise.
+
 ## Bonus
 
 There are lots of other kinds of content around the web that you can embed with an iframe. Try finding other kinds of content and adding it to the page via an iframe!
