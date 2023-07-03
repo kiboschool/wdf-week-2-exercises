@@ -8,36 +8,37 @@ This week, the mandatory exercises are:
 
 1. **Mini Kibo Website**: This project is an extract from the [kibo website](https://www.kibo.school). Your task is to embed different multimedia contents in the given website.
 
-
+To solve each exercise, navigate to the exercise folder and follow the instructions in the README.md file.
 
 ## Testing
 
+You can use the automated tests to check that your work is valid.
+
 1. Navigate your terminal to the parent exercise folder for the week (not the individual exercise).
 
-1. Install the project dependencies by running `npm install`
+2. Install the project dependencies by running `pnpm install`
 
-1. To run all tests for the week, run `npm run test`
+3. To run all tests for the week, run `pnpm run test`
 
-1. To run the test for a specific exercise, you need to specify the path to the exercise folder, run `npm run test exercise-folder`. For example, run `npm run test chicken-peanut-stew`
-
-<!-- To check that your solution meets the criteria, run `npm run test` in the console. (If you haven't already, you'll need to run `npm install` to install the packages required for testing). -->
+4. To run the test for a specific exercise, you need to specify the path to the exercise folder, run `pnpm run test exercise-folder`. For example, run `pnpm run test lecture-schedule`
 
 If your solution has all the required elements it should say something like:
 
 ```txt
- PASS  ./html-elements.test.js
-  The recipe page has the required HTML elements
-    ✓ uses at least one heading element (50 ms)
-    ✓ uses at least three heading elements (18 ms)
-    ✓ uses at least two heading elements (10 ms)
-    ✓ uses at least one image element (5 ms)
-    ✓ index.html is a valid html doc (193 ms)
+ PASS  lecture-schedule/lecture-schedule.test.js
+  The lecture schedule exercise has the required HTML elements
+    ✓ lecture-schedule index.html is a valid html doc (182 ms)
+    ✓ uses the image (42 ms)
+    ✓ checking for the <table> tag (13 ms)
+    ✓ checking for the <thead> and <tbody> tags (11 ms)
+    ✓ checking that the th tags were used for the header text (10 ms)
+    ✓ checking that the td tags were used for the table text (27 ms)
+    ✓ checking that there were 9 rows within the <tbody> tag (8 ms)
 
 Test Suites: 1 passed, 1 total
-Tests:       5 passed, 5 total
+Tests:       7 passed, 7 total
 Snapshots:   0 total
-Time:        2.104 s
-Ran all test suites.
+Time:        2.138 s, estimated 3 s
 ```
 
 If it does not pass one of the tests, you should get some feedback about what is wrong or missing in your solution.
@@ -51,10 +52,11 @@ The last test for each exercise is that your HTML follows all of the recommended
 Once you have passed all tests for the week, then you are ready to submit to Gradescope.
 
 ## Submission
+
 In order to get credit for your project, you must:
+
 - push your code to Github Classroom
 - submit your work in Gradescope
 - submit your project in Woolf
 
 Note that this assignment is automatically graded and you will see your grade shortly after submitting to Gradescope. You have unlimited number of attempts, therefore you are enouraged to modify your work and resubmit as much as possible, before the due date.
-

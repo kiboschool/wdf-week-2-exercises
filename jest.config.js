@@ -3,6 +3,7 @@ module.exports = {
   bail: false,
   testEnvironment: "jsdom",
   globalTeardown: "jest-autograding-reporter/teardown.js",
+  testPathIgnorePatterns: ["gradescope"],
 
   // The glob patterns Jest uses to detect test files
   // testMatch: [

@@ -1,6 +1,6 @@
 /* 
  * This file contains tests that check whether your solution in index.html is correct.
- * Run the tests with `npm run test`
+ * Run the tests with `pnpm run test`
  *
  * You can through this file to learn more about what is being tested, but do not modify it.
  *
